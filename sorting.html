@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sortingstyle.css">
+
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+
+    <script src="sortingscript.js"></script>
+    <link rel="icon" href="images/icon.png">
+    <title>Sorting Hat | Sorting</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sorting.html">Sorting</a></li>
+        </ul>
+    </nav>
+    <center>
+    <form id="quizForm">
+        <table>
+            <!-- QUESTION 1 -->
+            <tr>
+                <td>What is your favorite magical subject at Hogwarts?</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q1" id="q1a" value="A"> A. Potions</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q1" id="q1b" value="B"> B. Defense Against the Dark Arts</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q1" id="q1c" value="C"> C. Transfiguration</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q1" id="q1d" value="D"> D. Herbology</td>
+            </tr>
+
+            <!-- QUESTION 2 -->
+            <tr>
+                <td>How would you react if you found out you could do magic?</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q2" id="q2a" value="A"> A. I would be excited to learn everything I can about it.</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q2" id="q2b" value="B"> B. I would want to use it to help others.</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q2" id="q2c" value="C"> C. I would want to become the best at it.</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q2" id="q2d" value="D"> D. I would want to use it for adventures.</td>
+            </tr>
+
+            <!-- QUESTION 3 -->
+            <tr>
+                <td>What trait do you value the most in a friend?</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q3" id="q3a" value="A"> A. Loyalty</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q3" id="q3b" value="B"> B. Bravery</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q3" id="q3c" value="C"> C. Intelligence</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q3" id="q3d" value="D"> D. Ambition</td>
+            </tr>
+
+            <!-- QUESTION 4 -->
+            <tr>
+                <td>What is your greatest fear?</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q4" id="q4a" value="A"> A. Failure</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q4" id="q4b" value="B"> B. Losing loved ones</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q4" id="q4c" value="C"> C. Being powerless</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q4" id="q4d" value="D"> D. Not living up to my potential</td>
+            </tr>
+
+            <!-- QUESTION 5 -->
+            <tr>
+                <td>Which magical creature do you find most fascinating?</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q5" id="q5a" value="A"> A. Phoenix</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q5" id="q5b" value="B"> B. Dragon</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q5" id="q5c" value="C"> C. Unicorn</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q5" id="q5d" value="D"> D. Hippogriff</td>
+            </tr>
+
+            <!-- QUESTION 6 -->
+            <tr>
+                <td>How do you handle challenges?</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q6" id="q6a" value="A"> A. I face them head-on with courage.</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q6" id="q6b" value="B"> B. I strategize and find the smartest way to overcome them.</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q6" id="q6c" value="C"> C. I rely on my friends for support and work together.</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q6" id="q6d" value="D"> D. I look for ways to turn challenges to my advantage.</td>
+            </tr>
+
+            <!-- QUESTION 7 -->
+            <tr>
+                <td>What is your greatest fear?</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q7" id="q7a" value="A"> A. Failure</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q7" id="q7b" value="B"> B. Losing loved ones</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q7" id="q7c" value="C"> C. Being powerless</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q7" id="q7d" value="D"> D. Not living up to my potential</td>
+            </tr>
+
+            <!-- QUESTION 8 -->
+            <tr>
+                <td>Which of the following qualities do you admire most?</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q8" id="q8a" value="A"> A. Wisdom</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q8" id="q8b" value="B"> B. Daring</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q8" id="q8c" value="C"> C. Kindness</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q8" id="q8d" value="D"> D. Determination</td>
+            </tr>
+
+            <!-- QUESTION 9 -->
+            <tr>
+                <td>If you could have any magical power, what would it be?</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q9" id="q9a" value="A"> A. The ability to speak to animals</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q9" id="q9b" value="B"> B. Superhuman strength</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q9" id="q9c" value="C"> C. Invisibility</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q9" id="q9d" value="D"> D. Mind reading</td>
+            </tr>
+
+            <!-- QUESTION 10 -->
+            <tr>
+                <td>What is your favorite Hogwarts house?</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q10" id="q10a" value="A"> A. Gryffindor</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q10" id="q10b" value="B"> B. Hufflepuff</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q10" id="q10c" value="C"> C. Ravenclaw</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="q10" id="q10d" value="D"> D. Slytherin</td>
+            </tr>
+        </table>
+        <button type="submit" class="submit-btn" onclick="house()">Submit</button>
+    </form>
+    <br>
+    <br>
+    <!-- Custom Alert Modal -->
+    <div id="resultModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <p id="resultText"></p>
+            <img id="houseImage" src="" alt="House Image" class="house-img">
+            <audio src="" id="audio" autoplay></audio>
+        </div>
+    </div>
+</center>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const form = document.getElementById("quizForm");
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+        house();
+    });
+
+    // Modal handling
+    const modal = document.getElementById("resultModal");
+    const closeModal = document.getElementsByClassName("close-btn")[0];
+
+    closeModal.onclick = function() {
+        modal.style.display = "none";
+        window.location = 'index.html'
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+});
+</script>
+</body>
+</html>
